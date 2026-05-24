@@ -1,8 +1,8 @@
-import { SimpleForm, Edit, TextInput, ReferenceInput, required, BooleanInput } from "react-admin";
+import { SimpleForm, Create, TextInput, ReferenceInput, required, BooleanInput } from "react-admin";
 
-export const ChallengeOptionEdit = () => {
+export const ChallengeOptionCreate = () => {
   return (
-    <Edit>
+    <Create>
       <SimpleForm>
         <TextInput 
           source="text" 
@@ -26,6 +26,6 @@ export const ChallengeOptionEdit = () => {
           label="Audio URL"
         />
       </SimpleForm>
-    </Edit>
+    </Create>
   );
 };
